@@ -1,29 +1,4 @@
-# Boilerplate code for React and Tailwind
-
----
-
-Project structure:
-
-- follows atomic UI structure:
-
-  - atoms: barebone HTML elements and utilities. e.g. buttons, accordions, dropdowns
-  - molecules: composed of atoms. e..g cards
-  - organisms: combination of molecules e.g. contact form, testimonials section
-
-- ### Flow
-
-- protected routes are enclosed in the wrapper (here, auth protector).
-- routes tree can be composed in the routes folder which is then rendered as routes.
-- this make the API call and caches the result in context.
-  - <em>For simpler state, auth works fine. otherwise, would have used state manegers, most probably recoil. It works well with NextJS applications too.
-- we can extend the feature of route protection by making the API call once the app loads.
-- this model is highly extensible with flexibility of making calls for each render or periodical calls or event based calls like tab focus.
-- Employed proper error handling and reflecting the same in user interface.
-  App loads => auth context is setup after an API call to verify the uesr (maybe through auth tokens) => result is stored in the context => accessible to all route wrappers
-
----
-
----
+## Mercor assignment
 
 ## [](https://github.com/rakesh-gupta29/mercor/tree/main#setup)Setup
 

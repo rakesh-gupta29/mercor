@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "assets/*":["./assets/*"],
+      "molecules/*":["./molecules/*"],
+      "atoms/*":["./atoms/*"],
+      "organisms/*":["./organisms/*"],
+      "layouts/*":["./layouts/*"],
+      "screens/*":["./screens/*"],
+      "static/*":["./static/*"],
+      "hooks/*":["./hooks/*"],
+      "appFirebase/*":["./firebase/*"], // avoid conflict with the firebase package
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}

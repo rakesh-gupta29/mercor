@@ -1,0 +1,5 @@
+- remove all unused dependencies from the package.json file
+- remove all unused imports from all files
+- check all the comments starting with todo
+- compress all the assets and convert them to webp
+- include all the SEO tags in the site

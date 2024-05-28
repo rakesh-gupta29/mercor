@@ -18,8 +18,8 @@ Project structure:
   - <em>For simpler state, auth works fine. otherwise, would have used state manegers, most probably recoil. It works well with NextJS applications too.
 - we can extend the feature of route protection by making the API call once the app loads.
 - this model is highly extensible with flexibility of making calls for each render or periodical calls or event based calls like tab focus.
-
-App loads => auth context is setup after an API call to verify the uesr (maybe through auth tokens) => result is stored in the context => accessible to all route wrappers
+- Employed proper error handling and reflecting the same in user interface.
+  App loads => auth context is setup after an API call to verify the uesr (maybe through auth tokens) => result is stored in the context => accessible to all route wrappers
 
 ---
 
